@@ -1,0 +1,22 @@
+{
+    "name": "spencermalone/repo1",
+    "type": "library",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Spencermalone\\Repo1\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "packagist.org": false
+        },
+        {
+            "type": "path",
+            "url": "../../vendor/*/*"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "dev-main"
+    }
+}

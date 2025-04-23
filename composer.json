@@ -1,0 +1,11 @@
+{
+    "name": "spencermalone/phpstan-autoloader-symlink-pain",
+    "autoload": {
+        "psr-4": {
+            "Spencermalone\\PhpstanAutoloaderSymlinkPain\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.1"
+    }
+}
